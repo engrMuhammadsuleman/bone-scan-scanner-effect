@@ -17,9 +17,9 @@ The study measures how much a dual-view CNN loses when it is applied to a gamma 
 | `07_bs80k_only_to_cameras.ipynb` | Models trained on BS-80K only, tested on each camera, with and without adaptation | GPU |
 | `08_metastatic_predictions_and_features.ipynb` | Per-patient predictions and image features of the metastatic class | CPU |
 | `09_gradcam.ipynb` | Grad-CAM maps for the metastatic class | GPU |
-| `scripts/make_manuscript_figures.py` | Figures of the manuscript from the summary results | CPU |
+| `make_manuscript_figures.py` | Figures of the manuscript from the summary results | CPU |
 
-Run the notebooks in this order. Each notebook has a `QUICK_TEST` switch: run once with `True` (a few minutes) to check the pipeline, then with `False`. Training notebooks are resume-safe: finished runs are logged and skipped when the notebook is run again.
+All files are in the repository root. Run the notebooks in this order. Each notebook has a `QUICK_TEST` switch: run once with `True` (a few minutes) to check the pipeline, then with `False`. Training notebooks are resume-safe: finished runs are logged and skipped when the notebook is run again.
 
 ## Setup
 
