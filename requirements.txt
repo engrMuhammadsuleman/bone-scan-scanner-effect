@@ -1,0 +1,13 @@
+torch
+torchvision
+timm
+numpy
+pandas
+scipy
+scikit-learn
+pillow
+matplotlib
+openpyxl
+kagglehub
+huggingface_hub
+python-docx

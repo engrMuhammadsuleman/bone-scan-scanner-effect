@@ -1,0 +1,19 @@
+# data and results are never committed
+*.png
+*.jpg
+*.jpeg
+*.dcm
+*.xlsx
+*.csv
+*.npz
+*.pt
+*.pth
+manual_fixes.json
+relabelled_ids.json
+Anterior/
+Posterior/
+prepared*/
+revision/
+bs80k/
+.ipynb_checkpoints/
+__pycache__/
